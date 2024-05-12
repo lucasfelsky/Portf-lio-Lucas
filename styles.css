@@ -138,3 +138,15 @@
     width: 0px;
     border: 1px dashed white;
 }
+
+.horizontal-list {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+  }
+  
+  .horizontal-list li {
+    margin-right: 15px; /* Adjust as needed */
+    margin-bottom: 5px;
+  }
