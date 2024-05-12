@@ -125,3 +125,16 @@
     opacity: 0; /* Set opacity to 0 when not hovering */
     animation: fadeOut 0.3s ease forwards; /* Add fade-out animation */
 }
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 50%; /* Makes the element circular */
+}
+
+.linhaSeparadora{
+    height: 300px;
+    width: 0px;
+    border: 1px dashed white;
+}
