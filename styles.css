@@ -1,0 +1,19 @@
+.retanguloTopo {
+    border: 1px solid rgb(44, 44, 46);
+    background-color: rgb(44, 44, 46);
+    height: 30px; 
+    width: 1920px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.retanguloFundo {
+    border: 1px solid rgb(44, 44, 46);
+    background-color: rgb(44, 44, 46);
+    height: 30px; 
+    width: 1920px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
