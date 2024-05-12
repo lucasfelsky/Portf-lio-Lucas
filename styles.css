@@ -41,6 +41,7 @@
 
 .inverted-colors {
     filter: invert(100%);
+    opacity: 85%;
 }
 
 .dropbtn {
