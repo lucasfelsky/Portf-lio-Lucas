@@ -1,7 +1,7 @@
 .retanguloTopo {
-    border: 1px solid rgb(28,28,30);
-    background-color: rgb(28,28,30);
-    height: 80px; 
+    border: 1px solid rgb(28, 28, 30);
+    background-color: rgb(28, 28, 30);
+    height: 80px;
     width: 100%;
     position: absolute;
     top: 0;
@@ -9,9 +9,9 @@
 }
 
 .retanguloFundo {
-    border: 1px solid rgb(28,28,30);
-    background-color: rgb(28,28,30);
-    height: 30px; 
+    border: 1px solid rgb(28, 28, 30);
+    background-color: rgb(28, 28, 30);
+    height: 30px;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -19,20 +19,25 @@
 }
 
 .retanguloRecheio {
-    border: 1px solid rgb(28,28,30);
-    background-color: rgb(28,28,30);
-    height: 800px; 
+    border: 1px solid rgb(28, 28, 30);
+    background-color: rgb(28, 28, 30);
+    height: 800px;
     width: 100%;
     position: absolute;
     top: 80px;
     left: 0;
 }
 
+.grander {
+    width: 100%;
+    height: 1200px;
+}
+
 .san-francisco {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.home{
+.home {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
@@ -66,20 +71,21 @@
     display: none;
     position: absolute;
     border-radius: 15px;
-    top: 100%; 
+    top: 100%;
     left: 0;
-    background-color: rgba(26, 26, 27, 0.973); 
+    background-color: rgba(26, 26, 27, 0.973);
     min-width: 160px;
     z-index: 1;
-    opacity: 0; 
-    transition: opacity 0.3s ease; 
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(-10px); 
+        transform: translateY(-10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -90,13 +96,14 @@
     from {
         opacity: 1;
     }
+
     to {
         opacity: 0;
     }
 }
 
 .dropdown-content a {
-    color: rgba(255, 255, 255, 0.8); 
+    color: rgba(255, 255, 255, 0.8);
     padding: 12px 16px;
     text-decoration: none;
     font-size: 20px;
@@ -109,36 +116,36 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
-    opacity: 1; 
-    animation: fadeIn 0.3s ease forwards; 
+    opacity: 1;
+    animation: fadeIn 0.3s ease forwards;
 }
 
 .dropdown:not(:hover) .dropdown-content {
-    opacity: 0; 
-    animation: fadeOut 0.3s ease forwards; 
+    opacity: 0;
+    animation: fadeOut 0.3s ease forwards;
 }
 
 .circle {
     width: 200px;
     height: 200px;
     background-color: #3498db;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
-.linhaSeparadora{
+.linhaSeparadora {
     height: 300px;
     width: 0px;
     border: 1px dashed white;
 }
 
 .horizontal-list {
-    list-style-type: none; 
-    padding: 0; 
-    display: flex; 
-    flex-wrap: wrap; 
-  }
-  
-  .horizontal-list li {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.horizontal-list li {
     margin-right: 15px;
     margin-bottom: 5px;
-  }
+}
